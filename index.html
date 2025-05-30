@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DriveX - Premium Cars</title>
+  <link rel="icon" type="image/png" href="cropped_circle_image.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="sidebar">
+  <div class="logo">
+  <img src="cropped_circle_image.png" alt="DriveX Logo" class="logo-icon">
+  <span class="logo-text">Drive X</span>
+</div>
+  <nav>
+    <a href="#" class="nav-item active" data-title="Home">
+      <i class="fas fa-home"></i>
+      <span class="text">Home</span>
+    </a>
+    <a href="#" class="nav-item" data-title="Models">
+      <i class="fas fa-car-side"></i>
+      <span class="text">Models</span>
+    </a>
+    <a href="#" class="nav-item" data-title="Deals">
+      <i class="fas fa-tags"></i>
+      <span class="text">Deals</span>
+    </a>
+    <a class="nav-item" data-title="Accessories">
+      <i class="fa fa-cogs"></i>
+      <span class="text">Accessories</span>
+    </a>
+    <a class="nav-item" data-title="Mechanics">
+      <i class="fa fa-wrench"></i>
+      <span class="text">Mechanics</span>
+    </a>
+    <a class="nav-item" data-title="Payment">
+      <i class="fa fa-credit-card"></i>
+      <span class="text">Payment</span>
+    </a>
+    <a href="#" class="nav-item" data-title="Contact">
+      <i class="fas fa-phone"></i>
+      <span class="text">Contact</span>
+    </a>
+  </nav>
+
+  <div class="theme-switch-wrapper">
+  <label class="theme-label" for="theme-toggle">
+    <span class="theme-text">Light Mode</span>
+    <div class="theme-switch">
+      <input type="checkbox" id="theme-toggle">
+      <span class="slider"></span>
+    </div>
+  </label>
+</div>
+
+</div>
+
+</div>
+
+    </nav>
+  </div>
+<div class="content-wrapper">
+  <div class="main-content">
+    <section class="home">
+      <div class="logo-container">
+  <img src="cropped_circle_image.png" alt="DriveX Logo" class="site-logo">
+</div>
+
+      <h1>Unleash the Drive</h1>
+      <p>Discover next-gen performance and design with DriveX premium cars.</p>
+      <button class="cta-button" id="explore-models">Explore Models</button>
+    </section>
+  
+    <section class="models hidden">
+      <h2>Our Models</h2>
+      <div class="car-grid">
+        <div class="car-card" data-id="tesla-model-s">
+         <img src="tesla s.jpg" alt="Tesla Model S">
+         <h3>Tesla Model S</h3>
+         <p>Electric • 396 mi range</p>
+      </div>
+
+        <div class="car-card">
+          <img src="002-2024-BMW-i5-front-three-quarters-in-action.avif" alt="Car Model 2">
+          <h3>DriveX Phantom</h3>
+          <p>Hybrid • 360 hp • Sport Mode</p>
+        </div>
+        <div class="car-card">
+          <img src="300hp.avif" alt="Car Model 3">
+          <h3>DriveX Nova</h3>
+          <p>Gasoline • 300 hp • Luxury</p>
+        </div>
+
+
+      </div>
+    </section>
+    <section class="deals hidden">
+  <h2>Exclusive Deals</h2>
+  <div class="deal-grid">
+    <div class="deal-card">
+      <h3>Zero Down Payment</h3>
+      <p>Get started with no initial payment on select models.</p>
+    </div>
+    <div class="deal-card">
+      <h3>Low Interest Financing</h3>
+      <p>Finance at rates as low as 0.9% APR for 36 months.</p>
+    </div>
+    <div class="deal-card">
+      <h3>Free First-Year Service</h3>
+      <p>Enjoy complimentary service and support for the first year.</p>
+    </div>
+  </div>
+</section>
+<section class="contact hidden">
+  <h2>Contact Us</h2>
+  <p>Have questions or need assistance? Reach out to us anytime.</p>
+  
+  <div class="contact-content">
+    <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="map-hours">
+ <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.635541627074!2d-118.38286198478305!3d34.06608352435661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bfb2e0f41e97%3A0x3d1299f64a46d77d!2sTesla!5e0!3m2!1sen!2sus!4v1717001156472!5m2!1sen!2sus"
+  width="100%"
+  height="250"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+      <div class="hours">
+        <h4>Business Hours</h4>
+        <ul>
+          <li>Mon–Fri: 9:00 AM – 5:00 PM</li>
+          <li>Saturday: 10:00 AM – 3:00 PM</li>
+          <li>Sunday: Closed</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="accessories hidden">
+  <h2>Car Accessories</h2>
+  <div class="service-grid">
+    <div class="service-card">
+      <img src="623-1570-1.webp" alt="Alloy Wheels">
+      <h3>Alloy Wheels</h3>
+      <p>Enhance your car's look and performance.</p>
+    </div>
+    <div class="service-card">
+      <img src="H53307d8d33e341fc99c56fb844915513J_9228f844-cfa8-4e7e-be85-de6dd7ca436a.webp" alt="Led Headlights">
+      <h3>LED Headlights</h3>
+      <p>Upgrade to energy-efficient, high-visibility lighting.</p>
+    </div>
+  </div>
+</section>
+
+<section class="mechanics hidden">
+  <h2>Mechanical Services</h2>
+  <div class="service-grid">
+    <div class="service-card">
+      <img src="oil-change-universal.jpg" alt="Oil Change">
+      <h3>Oil Change</h3>
+      <p>Keep your engine running smoothly.</p>
+    </div>
+    <div class="service-card">
+      <img src="brake.jpg" alt="Brake Service">
+      <h3>Brake Service</h3>
+      <p>Ensure safe driving with regular brake checks.</p>
+    </div>
+  </div>
+</section>
+<section class="payment hidden">
+  <h2>Payment</h2>
+  <p>Choose your preferred payment method below:</p>
+
+  <div class="payment-methods">
+    <div class="payment-card">
+      <i class="fa fa-mobile fa-2x"></i>
+      <h3>M-Pesa</h3>
+      <p>Pay directly using M-Pesa mobile money service.</p>
+      <form class="mpesa-form">
+        <input type="text" placeholder="Enter Phone Number" required>
+        <input type="number" placeholder="Amount" required>
+        <button type="submit">Pay with M-Pesa</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+
+<a href="https://wa.me/254787570236" target="_blank" class="whatsapp-chat" aria-label="Chat with us on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+  <span class="chat-tooltip">Chat with us</span>
+</a>
+<footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h3>DriveX</h3>
+          <p>Your gateway to premium car experiences.</p>
+        </div>
+        <div class="footer-section links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Models</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Drive X. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
